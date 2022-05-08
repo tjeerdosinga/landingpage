@@ -78,13 +78,14 @@ ul {
 
 .random-info {
     text-align: center;
-    
+    margin-top: 64px;
 }
 
 .random-title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-bottom: 32px;
 }
 
 .img-container {
@@ -95,5 +96,52 @@ ul {
 .random-container {
     max-width: 200px;
     gap: 52px;
+}
+
+.random-text {
+    margin-top: 32px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    
+}
+
+.quote-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 600px;
+}
+
+.invisiquote {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.call-box {
+    display: flex;
+    background-color: #3882F6;
+    max-width: 800px;
+    gap: 32px;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
 }
 

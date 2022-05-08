@@ -11,15 +11,18 @@ body {
 
 .head {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 512px;
+    
 }
 
 .head-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    margin-left: 32px;
+    margin-left: 64px;
+    
 }
 
 ul {
@@ -29,7 +32,8 @@ ul {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
-    margin-right: 32px;
+    margin-right: 64px;
+    
 }
 
 .body {
@@ -40,7 +44,7 @@ ul {
 
 .awesome {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 64px;
     margin-bottom: 32px;
@@ -49,7 +53,7 @@ ul {
 
 .aw-left {
     max-width: 600px;
-    margin-left: 32px;
+    margin-left: 64px;
     margin-top: 124px;
 }
 
@@ -79,11 +83,20 @@ button {
     margin-bottom: 32px;
 }
 
-.img {
-    height: 400px;
-    width: 800px;
+#img1 {
+    
+    height: 300px;
     background-color: grey;
-    border-radius 5px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    margin-right: 64px;
+    margin-bottom: 32px;
+}
+
+#box {
+    border-radius: 10px;
+    width: 150px;
+    border: 2px solid #3882F6;
 }
 
 .random-info {
@@ -116,7 +129,7 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  
     align-items: center;
     background-color: #E5E7EB;
     
@@ -127,12 +140,15 @@ button {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    max-width: 600px;
+    max-width: 800px;
 }
 
-.invisiquote {
-    display: flex;
-    justify-content: flex-end;
+
+
+.quote-name {
+    font-weight: bold;
+    
+    align-self: flex-end;
 }
 
 .call-to-action {

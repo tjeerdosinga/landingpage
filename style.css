@@ -147,7 +147,7 @@ button {
 
 .quote-name {
     font-weight: bold;
-    
+    text-align: right;
     align-self: flex-end;
 }
 

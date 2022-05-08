@@ -1,0 +1,32 @@
+body {
+    background-color: #1F2937;
+    font-family: Verdama, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 32px;
+}
+
+
+
